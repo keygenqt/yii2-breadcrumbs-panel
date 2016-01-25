@@ -1,0 +1,48 @@
+.yii2-breadcrumbs-panel {
+    width: 100%;
+    height: 100%;
+    display: table;
+    padding: 20px;
+}
+.yii2-breadcrumbs-panel .breadcrumbs-panel {
+    background: #3d0047;
+    display: table-row;
+}
+.yii2-breadcrumbs-panel .breadcrumbs-panel:first-child {
+    height: 45px;
+}
+.yii2-breadcrumbs-panel .content-panel {
+    display: table-row;
+}
+.yii2-breadcrumbs-panel .content-panel .breadcrumbs-cell {
+    border: 1px solid #3d0047;
+}
+.yii2-breadcrumbs-panel ul {
+    margin: 0;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.yii2-breadcrumbs-panel ul li {
+    display: inline-block;
+    color: white;
+}
+.yii2-breadcrumbs-panel ul li a {
+    color: white;
+}
+.yii2-breadcrumbs-panel ul li:after {
+    content: "/";
+    margin-left: 10px;
+    margin-right: 3px;
+}
+.yii2-breadcrumbs-panel ul li:last-child:after {
+    content: "";
+}
+.yii2-breadcrumbs-panel .breadcrumbs-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.yii2-breadcrumbs-panel .breadcrumbs-icon {
+    display: inline-block;
+    color: white;
+    padding-left: 20px;
+}
