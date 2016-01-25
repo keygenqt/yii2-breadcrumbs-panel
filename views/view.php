@@ -7,7 +7,7 @@
 
 <?php if ($widget->homeLink === false): ?>
     <style>
-        .yii2-breadcrumbs-panel ul li:first-child {
+        .yii2-breadcrumbs-panel .breadcrumbs-panel ul li:first-child {
             display: none;
         }
     </style>
