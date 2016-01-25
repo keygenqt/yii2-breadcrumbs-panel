@@ -23,19 +23,19 @@
     padding: 10px 20px;
     display: inline-block;
 }
-.yii2-breadcrumbs-panel .breadcrumbs-cell ul li {
+.yii2-breadcrumbs-panel .breadcrumbs-panel ul li {
     display: inline-block;
     color: white;
 }
-.yii2-breadcrumbs-panel .breadcrumbs-cell ul li a {
+.yii2-breadcrumbs-panel .breadcrumbs-panel ul li a {
     color: white;
 }
-.yii2-breadcrumbs-panel .breadcrumbs-cell ul li:after {
+.yii2-breadcrumbs-panel .breadcrumbs-panel ul li:after {
     content: "/";
     margin-left: 10px;
     margin-right: 3px;
 }
-.yii2-breadcrumbs-panel .breadcrumbs-cell ul li:last-child:after {
+.yii2-breadcrumbs-panel .breadcrumbs-panel ul li:last-child:after {
     content: "";
 }
 .yii2-breadcrumbs-panel .breadcrumbs-cell {
