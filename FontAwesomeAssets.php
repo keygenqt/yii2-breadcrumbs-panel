@@ -1,6 +1,6 @@
 <?php
 
-namespace keygenqt\verticalMenu;
+namespace keygenqt\breadcrumbsPanel;
 
 use \yii\web\AssetBundle;
 
