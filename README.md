@@ -29,10 +29,29 @@ The latest version of the module is v0.5.0 `BETA`.
 
 ## Usage
 
+Layouts
+
 ```php
 use \keygenqt\breadcrumbsPanel\BreadcrumbsPanel;
 
+<?= BreadcrumbsPanel::widget([
+	'homeLink' => false,
+	'content' => $content
+]) ?>
+```
 
+View
+
+```php
+use \keygenqt\breadcrumbsPanel\BreadcrumbsPanel;
+
+BreadcrumbsPanel::setParams([
+	[
+		'label' => 'Sample Post', 
+		'url' => ['post/edit', 'id' => 1]
+	],
+	'Edit'
+], 'fa fa-desktop');
 ```
 
 ## License
