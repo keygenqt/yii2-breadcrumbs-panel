@@ -18,7 +18,7 @@
     border: 1px solid #3d0047;
 	padding: 20px;
 }
-.yii2-breadcrumbs-panel ul {
+.yii2-breadcrumbs-panel .breadcrumbs-panel ul {
     margin: 0;
     padding: 10px 20px;
     display: inline-block;
