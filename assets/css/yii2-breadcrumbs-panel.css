@@ -16,6 +16,7 @@
 }
 .yii2-breadcrumbs-panel .content-panel .breadcrumbs-cell {
     border: 1px solid #3d0047;
+	padding: 20px;
 }
 .yii2-breadcrumbs-panel ul {
     margin: 0;
