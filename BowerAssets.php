@@ -7,10 +7,11 @@ use \yii\web\AssetBundle;
 /**
  * @author KeyGen <keygenqt@gmail.com>
  */
-class FontAwesomeAssets extends AssetBundle
+class BowerAssets extends AssetBundle
 {
-	public $sourcePath = '@vendor/fortawesome/font-awesome';
+	public $sourcePath = '@bower/font-awesome';
+
 	public $css = [
-        'css/font-awesome.min',
+        'css/font-awesome.min.css',
 	];
 }

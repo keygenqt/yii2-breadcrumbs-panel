@@ -14,7 +14,7 @@ class BreadcrumbsPanel extends \yii\widgets\Menu
     
     public function run()
 	{
-        FontAwesomeAssets::register($this->getView());
+        BowerAssets::register($this->getView());
         ActiveAssets::register($this->getView());
 		return  $this->getView()->render('@keygenqt/breadcrumbsPanel/views/view', ['widget' => $this]);
     }
