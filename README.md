@@ -33,8 +33,8 @@ Layouts
 
 ```php
 use \keygenqt\breadcrumbsPanel\BreadcrumbsPanel;
-
 <?= BreadcrumbsPanel::widget([
+	'backLink' => false,
 	'homeLink' => false,
 	'content' => $content
 ]) ?>
@@ -52,6 +52,16 @@ BreadcrumbsPanel::setParams([
 	],
 	'Edit'
 ], 'fa fa-desktop');
+```
+
+Controller (if use back page link)
+
+```php
+use \keygenqt\lastPage\LastPage;
+
+class BaseController extends LastPage
+{
+    ...
 ```
 
 ## License

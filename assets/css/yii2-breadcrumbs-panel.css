@@ -47,3 +47,11 @@
     color: white;
     padding-left: 20px;
 }
+.yii2-breadcrumbs-panel a.back-link {
+	color: white;
+	text-decoration: underline;
+	float: right;
+	position: relative;
+	top: 9px;
+	right: 20px;
+}
