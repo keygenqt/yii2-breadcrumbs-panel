@@ -17,8 +17,15 @@
 	"require": {
 		"php": ">=5.4.0",
 		"yiisoft/yii2": "*",
+		"keygenqt/yii2-last-page": "*",
 		"bower-asset/Font-Awesome": "*"
 	},
+	"repositories":[
+		{
+			"type": "git",
+			"url": "https://github.com/keygenqt/yii2-last-page.git"
+		}
+	],
 	"autoload": {
 		"psr-4": {
 			"keygenqt\\breadcrumbsPanel\\": ""

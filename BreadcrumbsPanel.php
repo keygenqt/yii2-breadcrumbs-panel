@@ -7,6 +7,7 @@ class BreadcrumbsPanel extends \yii\widgets\Menu
     public static $links = [];
     public static $icon = '';
     
+    public $backLink = 'Back to page';
     public $homeLink = true;
     public $content;
     

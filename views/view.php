@@ -10,6 +10,9 @@
         .yii2-breadcrumbs-panel .breadcrumbs-panel ul li:first-child {
             display: none;
         }
+        .yii2-breadcrumbs-panel .back-link {
+            
+        }
     </style>
 <?php endif; ?>
 
@@ -30,6 +33,9 @@
                 ]) ?>
             <?php endif; ?>
         </div>
+        <?php if ($widget->backLink): ?>
+            <?= yii\helpers\Html::a($widget->backLink, Yii::$app->user->getReturnUrl(), ['class' => 'back-link']) ?>
+        <?php endif; ?>
     </div>
     <div class="content-panel">
         <div class="breadcrumbs-cell">
