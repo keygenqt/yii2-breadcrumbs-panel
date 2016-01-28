@@ -33,6 +33,7 @@ Layouts
 
 ```php
 use \keygenqt\breadcrumbsPanel\BreadcrumbsPanel;
+
 <?= BreadcrumbsPanel::widget([
 	'backLink' => false,
 	'homeLink' => false,
