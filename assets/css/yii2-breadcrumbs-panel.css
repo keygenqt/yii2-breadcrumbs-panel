@@ -41,6 +41,7 @@
 .yii2-breadcrumbs-panel .breadcrumbs-cell {
     display: table-cell;
     vertical-align: middle;
+	position: relative;
 }
 .yii2-breadcrumbs-panel .breadcrumbs-icon {
     display: inline-block;
@@ -51,6 +52,6 @@
     color: white;
     text-decoration: underline;
     position: absolute;
-    top: 32px;
-    right: 40px;
+    top: 11px;
+    right: 20px;
 }
