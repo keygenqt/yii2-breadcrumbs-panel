@@ -1,18 +1,16 @@
 .yii2-breadcrumbs-panel {
     width: 100%;
     height: 100%;
-    display: table;
     padding: 20px;
 }
 .yii2-breadcrumbs-panel .breadcrumbs-panel {
     background: #3d0047;
-    display: table-row;
 }
 .yii2-breadcrumbs-panel .breadcrumbs-panel:first-child {
     height: 45px;
 }
 .yii2-breadcrumbs-panel .content-panel {
-    display: table-row;
+	margin-bottom: 20px;
 }
 .yii2-breadcrumbs-panel .content-panel .breadcrumbs-cell {
     border: 1px solid #3d0047;
@@ -39,9 +37,9 @@
     content: "";
 }
 .yii2-breadcrumbs-panel .breadcrumbs-cell {
-    display: table-cell;
     vertical-align: middle;
 	position: relative;
+	padding-top: 4px;
 }
 .yii2-breadcrumbs-panel .breadcrumbs-icon {
     display: inline-block;
