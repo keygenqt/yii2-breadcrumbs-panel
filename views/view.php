@@ -3,6 +3,7 @@
 
     use \yii\widgets\Breadcrumbs;
     use keygenqt\breadcrumbsPanel\BreadcrumbsPanel;
+
 ?>
 
 <?php if ($widget->homeLink === false): ?>
@@ -24,10 +25,10 @@
             <?php endif; ?>
             
             <?php if (BreadcrumbsPanel::$links): ?>
-                <?= Breadcrumbs::widget([
+                <?= Breadcrumbs::widget(\yii\helpers\ArrayHelper::merge($widget->breadcrumbsOptions, [
                     'options' => [],
                     'links' => BreadcrumbsPanel::$links
-                ]) ?>
+                ])) ?>
             <?php endif; ?>
             
             <?php if ($widget->backLink): ?>
