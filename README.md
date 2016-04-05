@@ -12,13 +12,7 @@ Either add
 ```
 "require": {
     "keygenqt/yii2-breadcrumbs-panel": "*"
-},
-"repositories":[
-    {
-        "type": "git",
-        "url": "https://github.com/keygenqt/yii2-breadcrumbs-panel.git"
-    }
-]
+}
 ```
 
 of your `composer.json` file.
