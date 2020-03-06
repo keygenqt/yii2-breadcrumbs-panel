@@ -18,7 +18,7 @@
 		"php": ">=5.4.0",
 		"yiisoft/yii2": "*",
 		"keygenqt/yii2-last-page": "*",
-		"bower-asset/Font-Awesome": "*"
+		"yidas/yii2-fontawesome": "~5.0"
 	},
 	"repositories":[
 		{
